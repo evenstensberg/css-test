@@ -41,23 +41,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-h3 {
-  margin: 40px 0 0;
-  color: orange;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.ul-class {
-  
-  &.li-class {
-    display: inline-block;
-    margin: 0 10px;
-  }
-}
-a {
-  color: #42b983;
-}
+@import "./hello-world.scss";
 </style>
