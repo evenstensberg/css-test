@@ -5,9 +5,12 @@ const projectRootPath = '.';
 
 // Add any Jest configuration options here
 const jestConfig = {
- roots: ['./dist/tests'],
- testRegex: '\\.spec\\.js$'
+ roots: ['./tests'],
+ testRegex: '\\.spec\\.js$',
+ rootDir: '.'
 };
 
+process.argv.push('--config', JSON.stringify(jestConfig));
+
 // Run the Jest asynchronously
-run([], projectRootPath)
+run(process.argv, projectRootPath)
