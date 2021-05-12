@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { AppContainer } from "react-hot-loader";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./index.scss"
 
 const HelloWorldComponent = lazy(() => import("./HelloWorldComponent"));
 

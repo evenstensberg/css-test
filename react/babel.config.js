@@ -1,4 +1,4 @@
-{
+module.exports = {
   "presets": ["@babel/preset-env", "@babel/preset-react"],
   "env": {
     "test": {
@@ -14,6 +14,7 @@
       {
         "regenerator": true
       }
-    ]
+    ],
+    ['babel-plugin-babel-test']
   ]
 }

@@ -3,9 +3,9 @@ import React, { PureComponent } from "react";
 class HelloWorldComponent extends PureComponent {
   render() {
     return (
-      <>
-      <h1>Hello World!</h1>
-      </>
+      <div>
+      <h1 className="main-class">Hello World!</h1>
+      </div>
     );
   }
 }

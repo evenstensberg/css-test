@@ -44,7 +44,9 @@ module.exports = {
           {
             loader: "css-loader",
             options: {
-              sourceMap: isDev
+              sourceMap: isDev,
+              importLoaders: 1,
+              modules: true
             }
           },
           {
@@ -56,7 +58,8 @@ module.exports = {
               sourceMap: isDev
             }
           }
-        ]
+        ],
+        type: 'javascript/auto'
       },
       {
         test: /\.svg$/,
