@@ -15,6 +15,6 @@ module.exports = {
         "regenerator": true
       }
     ],
-    ['babel-plugin-babel-test']
+    ['babel-plugin-css-to-inline-styles']
   ]
 }
