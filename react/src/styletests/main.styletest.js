@@ -10,7 +10,7 @@ describe('main test', () => {
     test('Link changes the class when hovered', () => {
         const component = renderer.create(<HelloWorldComponent />);
         let tree = component.toJSON();
-        console.log(styles)
+        console.log(tree)
   /*       expect(tree.props.className).toBe('main-class'); */
     });
 })
